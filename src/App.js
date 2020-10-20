@@ -37,7 +37,6 @@ function App() {
 
   const didMountRef = useRef(false);
   useEffect(() => {
-    console.log(didMountRef.current, 'ηι');
   });
 
   useEffect(() => {
